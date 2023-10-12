@@ -23,10 +23,11 @@ ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    border-bottom: 3px solid transparent;
   }
   
   li a:hover {
-    background-color: #bbbbbb;
+    background-color: #c9c9c9;
     color: black;
     border-bottom: 3px solid crimson;
   }
@@ -46,11 +47,11 @@ ul {
 
   .elements{
     display: flex;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border: 2px solid rgb(162, 162, 162);
-    box-shadow: 0 0 5px rgb(162, 162, 162);
-    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 2px solid rgb(185, 185, 185);
+    box-shadow: 0 0 2px rgb(185, 185, 185);
+    padding: 20px;
   }
 
   .elements p{
